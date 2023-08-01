@@ -15,7 +15,8 @@ body {
 }
 
 .main-container {
-    background: gray;
+    background: url(..//Assets/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
     width: 80%;
     height: 90%;
     position: absolute;
