@@ -3,6 +3,7 @@ function Chats(props){
     const { chatName, chatTime, messageCounter, chatText,chatImgSrc } = props;
 
     return(
+        <div className="chats-container">
         <div className="chat-container">
             <div className="chat">
                 <div className="chat-img">
@@ -24,6 +25,7 @@ function Chats(props){
                             <div className="chat-text">{chatText}</div>
                             </div>
                             </div>
+        </div>
         </div>
     )
 }

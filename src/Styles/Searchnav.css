@@ -51,6 +51,11 @@
     color: green;
 }
 
+
+.input input:focus::placeholder {
+    color: transparent;
+}
+
 .input .filter-icon {
     display: flex;
     align-items: center;
