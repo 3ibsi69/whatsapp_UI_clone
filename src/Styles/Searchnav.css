@@ -38,7 +38,6 @@
 .input .back-icon {
     opacity: 0;
     transform: scale(0.5) translateX(-50%);
-    /* Start with smaller size and moved to the left */
 
 }
 

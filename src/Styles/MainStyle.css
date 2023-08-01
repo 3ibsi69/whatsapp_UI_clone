@@ -22,4 +22,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.white-right-side {
+    background-color: #fff;
+    width: 480px;
+    height: 100%;
 }

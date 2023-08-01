@@ -9,7 +9,9 @@ function App() {
 
       </div>
       <div className="main-container">
+        <div className="white-right-side">
       <SideBar/>
+      </div>
       </div>
     </div>
   );
